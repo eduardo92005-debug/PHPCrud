@@ -5,6 +5,7 @@ include('../utils/utils.class.php');
 $id = $_POST['id'] ?? False;
 $musicasRepository = new MusicasRepository();
 $utils = new Utils();
+$id_get = $utils->getQueryString('id') ?: throw new Exception('ID não informado');
 if($id){
     $sql = $musicasRepository->deleteMusica($id);
     echo "Musica deletada com sucesso!";
@@ -18,8 +19,8 @@ if($id){
     <div class="row flex-center">
         <div class="form-div">
             <form class="form" method="POST">
-                <label>Do you really want to remove the user <?=$_GET['id']?> ?</label>
-                <input type="hidden" name="id" value="<?=$_GET['id']?>" required/>
+                <label>Do you really want to remove the user <?=$id_get?> ?</label>
+                <input type="hidden" name="id" value="<?=$id_get?>" required/>
 
                 <button class="btn btn-success text-white" type="submit">Yes</button>
             </form>
