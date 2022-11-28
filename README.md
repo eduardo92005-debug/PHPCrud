@@ -1,6 +1,6 @@
 # PHP Crud
 
-Implementacao simples de uma API com PHP puro e MySQL (PDO) com o intuito de demonstrar e exemplificar seu processo.
+Implementação simples de uma API com PHP puro e MySQL (PDO) com o intuito de demonstrar e exemplificar seu processo.
 
 ## 🚀 Começando
 
