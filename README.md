@@ -24,7 +24,7 @@ seguir os passos abaixo:
 * Pronto, agora basta escolher a página que você quer ver.
 ## ⚙️ Arquitetura de pastas
 
-* __Pages__ -> Conjunto de arquivos especializados em renderizar paginas HTML e fazer comunicação direta com o banco de dados.
+* __Pages__ -> Conjunto de arquivos especializados em renderizar páginas HTML e fazer comunicação direta com o banco de dados.
 * __Database__ -> Conjunto de arquivos especializados para configuração do banco de dados.
 * __Repository__ -> Conjunto de arquivos especializados em gerenciar e criar _Queries SQL_ específicas para alguma funcionalidade.
 * __Utils__ -> Conjunto de arquivos especializados em fornecer utilidades gerais para o aplicativo.
